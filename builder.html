@@ -134,7 +134,7 @@
     }
 
     // Change this uid to switch user
-    var uid = "Zair";
+    var uid = "Admin";
 
     var beeConfig = {
       uid: uid, // [mandatory]
@@ -149,7 +149,7 @@
           "save-row-modal-title": " ",
         },
       },*/
-      saveRows: uid === "Zair" || uid === "Mark",
+      saveRows: uid === "Admin" || uid === "Designer",
       //defaultTabsOrder: ["content", "settings", "row"],
       contentDialog: {
         specialLinks: {
@@ -188,10 +188,10 @@
       advancedPermissions: {
         rows: {
           behaviors: {
-            canDeleteHostedRow: uid === "Zair",
-            canEditHostedRow: uid === "Zair" || uid === "Mark",
-            canManageHostedRowCategory: uid === "Zair",
-            canAddHostedRowCategory: uid === "Zair",
+            canDeleteHostedRow: uid === "Admin",
+            canEditHostedRow: uid === "Admin" || uid === "Designer",
+            canManageHostedRowCategory: uid === "Admin",
+            canAddHostedRowCategory: uid === "Admin",
           },
         },
         tabs: {
