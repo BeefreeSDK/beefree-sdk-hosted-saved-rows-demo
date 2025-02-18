@@ -1,0 +1,500 @@
+[
+  {
+      "term": "Service temporarily unavailable",
+      "definition": "Service temporarily unavailable",
+      "context": ".hosted-content.retrieve-categories-error-toast-title",
+      "reference": ".hosted-content.retrieve-categories-error-toast-title"
+  },
+  {
+      "term": "An error occurred and row categories couldn't be loaded.",
+      "definition": "An error occurred and row categories could not be loaded.",
+      "context": ".hosted-content.retrieve-categories-error-toast-description",
+      "reference": ".hosted-content.retrieve-categories-error-toast-description"
+  },
+  {
+      "term": "Service temporarily unavailable",
+      "definition": "Service temporarily unavailable",
+      "context": ".hosted-content.retrieve-rows-error-toast-title",
+      "reference": ".hosted-content.retrieve-rows-error-toast-title"
+  },
+  {
+      "term": "An error occurred and the rows couldn't be loaded.",
+      "definition": "An error occurred and the rows could not be loaded.",
+      "context": ".hosted-content.retrieve-rows-error-toast-description",
+      "reference": ".hosted-content.retrieve-rows-error-toast-description"
+  },
+  {
+      "term": "Category",
+      "definition": "Category",
+      "context": ".hosted-content.category-select-label",
+      "reference": ".hosted-content.category-select-label"
+  },
+  {
+      "term": "Select category, or type to create a new one",
+      "definition": "Select category, or type to create a new one",
+      "context": ".hosted-content.category-select-placeholder",
+      "reference": ".hosted-content.category-select-placeholder"
+  },
+  {
+      "term": "Service temporarily unavailable",
+      "definition": "Service temporarily unavailable",
+      "context": ".hosted-content.save-row-error-toast-title",
+      "reference": ".hosted-content.save-row-error-toast-title"
+  },
+  {
+      "term": "An error occurred and the row couldn't be saved.",
+      "definition": "An error occurred and the row could not be saved.",
+      "context": ".hosted-content.save-row-error-toast-description",
+      "reference": ".hosted-content.save-row-error-toast-description"
+  },
+  {
+      "term": "Row saved",
+      "definition": "Row saved",
+      "context": ".hosted-content.save-row-success-toast-title",
+      "reference": ".hosted-content.save-row-success-toast-title"
+  },
+  {
+      "term": "Your row successfully saved to your library.",
+      "definition": "Your row successfully saved to your library.",
+      "context": ".hosted-content.save-row-success-toast-description",
+      "reference": ".hosted-content.save-row-success-toast-description"
+  },
+  {
+      "term": "Save row",
+      "definition": "Save row",
+      "context": ".hosted-content.save-row-modal-title",
+      "reference": ".hosted-content.save-row-modal-title"
+  },
+  {
+      "term": "Save your row",
+      "definition": "Save your row",
+      "context": ".hosted-content.save-row-modal-content-title",
+      "reference": ".hosted-content.save-row-modal-content-title"
+  },
+  {
+      "term": "Save this row to your library for reuse later.",
+      "definition": "Save this row to your library for reuse later.",
+      "context": ".hosted-content.save-row-modal-description",
+      "reference": ".hosted-content.save-row-modal-description"
+  },
+  {
+      "term": "Row name",
+      "definition": "Row name",
+      "context": ".hosted-content.save-row-modal-name-label",
+      "reference": ".hosted-content.save-row-modal-name-label"
+  },
+  {
+      "term": "Type your row's name",
+      "definition": "Type your row's name",
+      "context": ".hosted-content.save-row-modal-name-placeholder",
+      "reference": ".hosted-content.save-row-modal-name-placeholder"
+  },
+  {
+      "term": "Cancel",
+      "definition": "Cancel",
+      "context": ".hosted-content.save-row-modal-button-cancel",
+      "reference": ".hosted-content.save-row-modal-button-cancel"
+  },
+  {
+      "term": "Save",
+      "definition": "Save",
+      "context": ".hosted-content.save-row-modal-button-confirm",
+      "reference": ".hosted-content.save-row-modal-button-confirm"
+  },
+  {
+      "term": "Save as new",
+      "definition": "Save as new",
+      "context": ".hosted-content.save-row-modal-button-save-as-new",
+      "reference": ".hosted-content.save-row-modal-button-save-as-new"
+  },
+  {
+      "term": "Update",
+      "definition": "Update",
+      "context": ".hosted-content.save-row-modal-button-update",
+      "reference": ".hosted-content.save-row-modal-button-update"
+  },
+  {
+      "term": "My Saved Rows",
+      "definition": "My Saved Rows",
+      "context": ".hosted-content.default-row-category-name",
+      "reference": ".hosted-content.default-row-category-name"
+  },
+  {
+      "term": "Delete row",
+      "definition": "Delete row",
+      "context": ".hosted-content.delete-row-modal-title",
+      "reference": ".hosted-content.delete-row-modal-title"
+  },
+  {
+      "term": "Delete row",
+      "definition": "Delete row",
+      "context": ".hosted-content.delete-row-modal-content-title",
+      "reference": ".hosted-content.delete-row-modal-content-title"
+  },
+  {
+      "term": "This row will be permanently deleted. Existing rows inside emails or pages won't change.",
+      "definition": "This row will be permanently deleted. Existing rows inside emails or pages won't change.",
+      "context": ".hosted-content.delete-row-modal-description",
+      "reference": ".hosted-content.delete-row-modal-description"
+  },
+  {
+      "term": "Are you sure you want to delete this row?",
+      "definition": "Are you sure you want to delete this row?",
+      "context": ".hosted-content.delete-row-modal-question",
+      "reference": ".hosted-content.delete-row-modal-question"
+  },
+  {
+      "term": "Delete",
+      "definition": "Delete",
+      "context": ".hosted-content.delete-row-modal-button-confirm",
+      "reference": ".hosted-content.delete-row-modal-button-confirm"
+  },
+  {
+      "term": "Service temporarily unavailable",
+      "definition": "Service temporarily unavailable",
+      "context": ".hosted-content.delete-row-error-toast-title",
+      "reference": ".hosted-content.delete-row-error-toast-title"
+  },
+  {
+      "term": "An error occurred and the row could not be deleted.",
+      "definition": "An error occurred and the row could not be deleted.",
+      "context": ".hosted-content.delete-row-error-toast-description",
+      "reference": ".hosted-content.delete-row-error-toast-description"
+  },
+  {
+      "term": "Row deleted",
+      "definition": "Row deleted",
+      "context": ".hosted-content.delete-row-success-toast-title",
+      "reference": ".hosted-content.delete-row-success-toast-title"
+  },
+  {
+      "term": "Your row successfully deleted from your library.",
+      "definition": "Your row successfully deleted from your library.",
+      "context": ".hosted-content.delete-row-success-toast-description",
+      "reference": ".hosted-content.delete-row-success-toast-description"
+  },
+  {
+      "term": "Edit Row",
+      "definition": "Edit Row",
+      "context": ".hosted-content.edit-row-modal-title",
+      "reference": ".hosted-content.edit-row-modal-title"
+  },
+  {
+      "term": "Edit your row's information",
+      "definition": "Edit your row's information",
+      "context": ".hosted-content.edit-row-modal-content-title",
+      "reference": ""
+  },
+  {
+      "term": "Update your row's name and category.",
+      "definition": "Update your row's name and category.",
+      "context": ".hosted-content.edit-row-modal-description",
+      "reference": ".hosted-content.edit-row-modal-description"
+  },
+  {
+      "term": "Row name",
+      "definition": "Name",
+      "context": ".hosted-content.edit-row-modal-name-label",
+      "reference": ".hosted-content.edit-row-modal-name-label"
+  },
+  {
+      "term": "Insert a row name",
+      "definition": "Insert a row name",
+      "context": ".hosted-content.edit-row-modal-name-placeholder",
+      "reference": ".hosted-content.edit-row-modal-name-placeholder"
+  },
+  {
+      "term": "Cancel",
+      "definition": "Cancel",
+      "context": ".hosted-content.edit-row-modal-button-cancel",
+      "reference": ".hosted-content.edit-row-modal-button-cancel"
+  },
+  {
+      "term": "Update",
+      "definition": "Update",
+      "context": ".hosted-content.edit-row-modal-button-confirm",
+      "reference": ".hosted-content.edit-row-modal-button-confirm"
+  },
+  {
+      "term": "Your category could not be save",
+      "definition": "Your category could not be save",
+      "context": ".hosted-content.edit-row-error-toast-title",
+      "reference": ".hosted-content.edit-row-error-toast-title"
+  },
+  {
+      "term": "Row updated",
+      "definition": "Row updated",
+      "context": ".hosted-content.edit-row-success-toast-title",
+      "reference": ".hosted-content.edit-row-success-toast-title"
+  },
+  {
+      "term": "Your row successfully updated.",
+      "definition": "Your row successfully updated.",
+      "context": ".hosted-content.edit-row-success-toast-description",
+      "reference": ".hosted-content.edit-row-success-toast-description"
+  },
+  {
+      "term": "Manage category",
+      "definition": "Manage category menu",
+      "context": ".hosted-content.rows-panel-category-dropdown-menu-aria-label",
+      "reference": ".hosted-content.rows-panel-category-dropdown-menu-aria-label"
+  },
+  {
+      "term": "Add new category",
+      "definition": "Add new category",
+      "context": ".hosted-content.rows-panel-category-dropdown-menu-add",
+      "reference": ".hosted-content.rows-panel-category-dropdown-menu-add"
+  },
+  {
+      "term": "Manage category",
+      "definition": "Manage category",
+      "context": ".hosted-content.rows-panel-category-dropdown-menu-manage",
+      "reference": ".hosted-content.rows-panel-category-dropdown-menu-manage"
+  },
+  {
+      "term": "Back",
+      "definition": "Back",
+      "context": ".hosted-content.generic-modal-actions-back",
+      "reference": ".hosted-content.generic-modal-actions-back"
+  },
+  {
+      "term": "Manage category",
+      "definition": "Manage category",
+      "context": ".hosted-content.manage-category-row-modal-title",
+      "reference": ".hosted-content.manage-category-row-modal-title"
+  },
+  {
+      "term": "Edit or delete your categories",
+      "definition": "Edit or delete your categories",
+      "context": ".hosted-content.manage-category-row-modal-content-title-default",
+      "reference": ".hosted-content.manage-category-row-modal-content-title-default"
+  },
+  {
+      "term": "Use the more options menu beside each category to rename or delete it.",
+      "definition": "Use the more options menu beside each category to rename or delete it.",
+      "context": ".hosted-content.manage-category-row-modal-description-default",
+      "reference": ".hosted-content.manage-category-row-modal-description-default"
+  },
+  {
+      "term": "Category",
+      "definition": "Category",
+      "context": ".hosted-content.manage-category-row-modal-category-list-title-default",
+      "reference": ".hosted-content.manage-category-row-modal-category-list-title-default"
+  },
+  {
+      "term": "Manage category",
+      "definition": "Manage category menu",
+      "context": ".hosted-content.manage-category-row-modal-category-dropdown-menu-aria-label",
+      "reference": ".hosted-content.manage-category-row-modal-category-dropdown-menu-aria-label"
+  },
+  {
+      "term": "Edit info",
+      "definition": "Edit info",
+      "context": ".hosted-content.manage-category-row-modal-category-dropdown-edit",
+      "reference": ".hosted-content.manage-category-row-modal-category-dropdown-edit"
+  },
+  {
+      "term": "Delete",
+      "definition": "Delete",
+      "context": ".hosted-content.manage-category-row-modal-category-dropdown-delete",
+      "reference": ".hosted-content.manage-category-row-modal-category-dropdown-delete"
+  },
+  {
+      "term": "Edit category",
+      "definition": "Edit category",
+      "context": ".hosted-content.manage-category-row-modal-content-title-edit",
+      "reference": ".hosted-content.manage-category-row-modal-content-title-edit"
+  },
+  {
+      "term": "Edit your category",
+      "definition": "Edit your category",
+      "context": ".hosted-content.manage-category-row-modal-description-edit",
+      "reference": ".hosted-content.manage-category-row-modal-description-edit"
+  },
+  {
+      "term": "Category",
+      "definition": "Category",
+      "context": ".hosted-content.manage-category-row-modal-name-label",
+      "reference": ".hosted-content.manage-category-row-modal-name-label"
+  },
+  {
+      "term": "Insert a category",
+      "definition": "Insert a category",
+      "context": ".hosted-content.manage-category-row-modal-name-placeholder",
+      "reference": ".hosted-content.manage-category-row-modal-name-placeholder"
+  },
+  {
+      "term": "Cancel",
+      "definition": "Cancel",
+      "context": ".hosted-content.manage-category-row-modal-button-cancel-edit",
+      "reference": ".hosted-content.manage-category-row-modal-button-cancel-edit"
+  },
+  {
+      "term": "Save",
+      "definition": "Save",
+      "context": ".hosted-content.manage-category-row-modal-button-confirm-edit",
+      "reference": ".hosted-content.manage-category-row-modal-button-confirm-edit"
+  },
+  {
+      "term": "Delete category",
+      "definition": "Delete category",
+      "context": ".hosted-content.manage-category-row-modal-content-title-delete",
+      "reference": ".hosted-content.manage-category-row-modal-content-title-delete"
+  },
+  {
+      "term": "Deleting this category will also remove all its rows permanently. However, any rows currently used in emails or pages will remain unchanged.",
+      "definition": "Deleting this category will permanently delete its rows. Existing rows inside emails or pages won't change.",
+      "context": ".hosted-content.manage-category-row-modal-description-delete",
+      "reference": ".hosted-content.manage-category-row-modal-description-delete"
+  },
+  {
+      "term": "Are you sure you want to proceed?",
+      "definition": "Are you sure you want to delete this category?",
+      "context": ".hosted-content.manage-category-row-modal-question-delete",
+      "reference": ".hosted-content.manage-category-row-modal-question-delete"
+  },
+  {
+      "term": "Cancel",
+      "definition": "Cancel",
+      "context": ".hosted-content.manage-category-row-modal-button-cancel-delete",
+      "reference": ".hosted-content.manage-category-row-modal-button-cancel-delete"
+  },
+  {
+      "term": "Delete",
+      "definition": "Delete",
+      "context": ".hosted-content.manage-category-row-modal-button-confirm-delete",
+      "reference": ".hosted-content.manage-category-row-modal-button-confirm-delete"
+  },
+  {
+      "term": "Add new category",
+      "definition": "Add new category",
+      "context": ".hosted-content.add-category-row-modal-title",
+      "reference": ".hosted-content.add-category-row-modal-title"
+  },
+  {
+      "term": "Add new category",
+      "definition": "Add new category",
+      "context": ".hosted-content.add-category-row-modal-content-title",
+      "reference": ".hosted-content.add-category-row-modal-content-title"
+  },
+  {
+      "term": "Create a new row category.",
+      "definition": "Create a new row category.",
+      "context": ".hosted-content.add-category-row-modal-description",
+      "reference": ".hosted-content.add-category-row-modal-description"
+  },
+  {
+      "term": "Category",
+      "definition": "Category",
+      "context": ".hosted-content.add-category-row-modal-name-label",
+      "reference": ".hosted-content.add-category-row-modal-name-label"
+  },
+  {
+      "term": "Type category's name",
+      "definition": "Type category's name",
+      "context": ".hosted-content.add-category-row-modal-name-placeholder",
+      "reference": ""
+  },
+  {
+      "term": "Cancel",
+      "definition": "Cancel",
+      "context": ".hosted-content.add-category-row-modal-button-cancel",
+      "reference": ".hosted-content.add-category-row-modal-button-cancel"
+  },
+  {
+      "term": "Save",
+      "definition": "Save",
+      "context": ".hosted-content.add-category-row-modal-button-confirm",
+      "reference": ".hosted-content.add-category-row-modal-button-confirm"
+  },
+  {
+      "term": "beta",
+      "definition": "beta",
+      "context": ".hosted-content.modal-title-beta-badge",
+      "reference": ".hosted-content.modal-title-beta-badge"
+  },
+  {
+      "term": "Looks like you haven't added any categories yet",
+      "definition": "Looks like you haven't added any categories yet",
+      "context": ".hosted-content.manage-category-row-modal-empty-state",
+      "reference": ".hosted-content.manage-category-row-modal-empty-state"
+  },
+  {
+      "term": "Category saved",
+      "definition": "Category saved",
+      "context": ".hosted-content.manage-category-success-toast-title-edit",
+      "reference": ".hosted-content.manage-category-success-toast-title-edit"
+  },
+  {
+      "term": "Your category successfully saved to your library.",
+      "definition": "Your category successfully saved to your library.",
+      "context": ".hosted-content.add-category-success-toast-description",
+      "reference": ".hosted-content.add-category-success-toast-description"
+  },
+  {
+      "term": "Your category could not be saved",
+      "definition": "Your category could not be saved",
+      "context": ".hosted-content.add-category-error-toast-title-already-exists",
+      "reference": ".hosted-content.add-category-error-toast-title-already-exists"
+  },
+  {
+      "term": "Category name already exists. Try a different name.",
+      "definition": "Category name already exists. Try a different name.",
+      "context": ".hosted-content.add-category-error-toast-description-already-exists",
+      "reference": ".hosted-content.add-category-error-toast-description-already-exists"
+  },
+  {
+      "term": "Category saved",
+      "definition": "Category saved",
+      "context": ".hosted-content.add-category-success-toast-title",
+      "reference": ".hosted-content.add-category-success-toast-title"
+  },
+  {
+      "term": "Category deleted",
+      "definition": "Category deleted",
+      "context": ".hosted-content.manage-category-error-toast-title-delete",
+      "reference": ".hosted-content.manage-category-error-toast-title-delete"
+  },
+  {
+      "term": "Your category successfully deleted from your library.",
+      "definition": "Your category successfully deleted from your library.",
+      "context": ".hosted-content.manage-category-error-toast-description-delete",
+      "reference": ".hosted-content.manage-category-error-toast-description-delete"
+  },
+  {
+      "term": "Your category could not be saved",
+      "definition": "Your category could not be saved",
+      "context": ".hosted-content.manage-category-error-toast-title-edit",
+      "reference": ".hosted-content.manage-category-error-toast-title-edit"
+  },
+  {
+      "term": "Your category could not be saved right now. ",
+      "definition": "Your category could not be saved right now.",
+      "context": ".hosted-content.edit-row-error-toast-description",
+      "reference": ".hosted-content.edit-row-error-toast-description"
+  },
+  {
+      "term": "Your category could not be saved right now.",
+      "definition": "Your category could not be saved right now.",
+      "context": ".hosted-content.manage-category-error-toast-description-edit",
+      "reference": ".hosted-content.manage-category-error-toast-description-edit"
+  },
+  {
+      "term": "Your category successfully saved to your library.",
+      "definition": "Your category successfully saved to your library.",
+      "context": ".hosted-content.manage-category-success-toast-description-edit",
+      "reference": ".hosted-content.manage-category-success-toast-description-edit"
+  },
+  {
+      "term": "Your category could not be saved right now.",
+      "definition": "Your category could not be saved right now.",
+      "context": ".hosted-content.add-category-error-toast-description",
+      "reference": ".hosted-content.add-category-error-toast-description"
+  },
+  {
+      "term": "Your category could not be saved",
+      "definition": "Your category could not be saved",
+      "context": ".hosted-content.add-category-error-toast-title",
+      "reference": ".hosted-content.add-category-error-toast-title"
+  }
+]
