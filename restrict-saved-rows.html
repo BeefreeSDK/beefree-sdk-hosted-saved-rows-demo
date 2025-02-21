@@ -76,28 +76,30 @@
     const GLITCH_SERVER_URL = "https://interesting-even-sword.glitch.me";
 
     var request = function (method, url, data, type, callback) {
-  console.log(`Making ${method} request to:`, url);
-  if (data) console.log("Request Data:", data);
+      var req = new XMLHttpRequest();
+      req.onreadystatechange = function () {
+        if (req.readyState === 4 && req.status === 200) {
+          var response = JSON.parse(req.responseText);
+          callback(response);
+        } else if (req.readyState === 4 && req.status !== 200) {
+          console.error("Access denied, invalid credentials.");
+        }
+      };
 
-  var req = new XMLHttpRequest();
-  req.onreadystatechange = function () {
-    if (req.readyState === 4) {
-      console.log("Response received:", req.responseText);
-      
-      if (req.status === 200) {
-        var response = JSON.parse(req.responseText);
-        callback(response);
-      } else {
-        console.error("Error in request:", req.status, req.responseText);
+      req.open(method, url, true);
+      if (data && type) {
+        if (type === "multipart/form-data") {
+          var formData = new FormData();
+          for (var key in data) {
+            formData.append(key, data[key]);
+          }
+          data = formData;
+        } else {
+          req.setRequestHeader("Content-type", type);
+        }
       }
-    }
-  };
 
-  req.open(method, url, true);
-  if (data && type) {
-    req.setRequestHeader("Content-type", type);
-  }
-  req.send(data);
+      req.send(data);
     };
 
     var save = function (filename, content) {
