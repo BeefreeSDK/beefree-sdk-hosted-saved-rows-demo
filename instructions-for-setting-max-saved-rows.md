@@ -1,20 +1,20 @@
-# Instructions for Hosted Saved Rows Integration
+# Instructions for setting a max number of Hosted Saved Rows a user can save
 
 ## Overview
-This project integrates the Beefree SDK to allow users to create, edit, and save email rows within a web-based editor. Saved rows are tracked and managed via a backend server built with Express and SQLite, hosted on Glitch. View what the final result looks like in the following video. [Click here to view the file](https://drive.google.com/file/d/168-wCclvrP6YykwCSBQtezYmdy4L64A9/view?usp=drive_link).
+This project integrates the Beefree SDK to allow users to create, edit, and save email rows within a content builder. Hosted saved rows are tracked and managed via a backend server built with Express and SQLite, hosted on Glitch. View what the final result looks like in the following video. [Click here to view the file](https://drive.google.com/file/d/168-wCclvrP6YykwCSBQtezYmdy4L64A9/view?usp=drive_link).
 
 ## Functionality in Place
 
 ### 1. **Frontend (HTML & JavaScript)**
 The frontend provides the following capabilities:
-- **Load and Edit Templates:** Users can load an email template from a file and edit it using the Beefree editor.
+- **Load and Edit Templates:** Users can load an email template from a file and edit it using the Beefree SDK editor.
 - **Hosted Save Rows:** Users can save rows, with a restriction on how many rows they can store.
 - **Track Changes:** The application logs changes and updates the backend when a row is added or deleted.
 - **Display Remaining Rows:** A modal alerts users about their remaining available row slots.
 - **Restrict Saving Beyond Limit:** Users exceeding their row limit are prevented from saving additional rows.
 
 #### Key JavaScript Components:
-- **Request Handling (`request` function):** Makes HTTP requests to the backend for fetching and saving rows.
+- **Request Handling (`request` function):** Makes HTTP requests to the backend for fetching rows tracked.
 - **Row Save Handler (`contentDialog.saveRow.handler`)**
   - Checks the backend for the number of saved rows.
   - Allows saving if the limit is not exceeded.
