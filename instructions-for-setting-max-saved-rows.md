@@ -19,7 +19,7 @@ The frontend provides the following capabilities:
   - Checks the backend for the number of saved rows.
   - Allows saving if the limit is not exceeded.
   - Displays an alert and blocks saving when the limit is reached.
-- **Automatic Plugin Reload (`reloadBeePlugin`)**
+- **Automatic Reload (`reloadBeePlugin`)**
   - If the row limit is reached, the SDK is reloaded with `saveRows` disabled to prevent further saves.
 
 ### 2. **Backend (server.js - Express & SQLite)**
