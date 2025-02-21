@@ -1,7 +1,7 @@
 # Instructions for Hosted Saved Rows Integration
 
 ## Overview
-This project integrates the Beefree SDK to allow users to create, edit, and save email rows within a web-based editor. Saved rows are tracked and managed via a backend server built with Express and SQLite, hosted on Glitch.
+This project integrates the Beefree SDK to allow users to create, edit, and save email rows within a web-based editor. Saved rows are tracked and managed via a backend server built with Express and SQLite, hosted on Glitch. View what the final result looks like in the following video. [![Result for setting a maximum number of hosted saved rows an end user can save](https://drive.google.com/file/d/1P_XcNfDArDsgkjv5XONjU4jGSgs4dSSe/view?usp=sharing)](https://drive.google.com/file/d/168-wCclvrP6YykwCSBQtezYmdy4L64A9/view?usp=drive_link)
 
 ## Functionality in Place
 
