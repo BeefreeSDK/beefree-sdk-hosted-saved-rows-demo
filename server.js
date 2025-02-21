@@ -73,7 +73,7 @@ app.get('/saved-rows/:uid', (req, res) => {
 
     console.log("Returning saved rows:", rows); // Debugging log
 
-    // ✅ Set JSON response header
+    // Set JSON response header
     res.setHeader("Content-Type", "application/json");
     res.json(rows);
   });
