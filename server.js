@@ -41,44 +41,22 @@ app.post('/confirmation-row-saved/:uid?', (req, res) => {
       console.error("Error saving row:", err);
       return res.status(500).json({ error: err.message });
     }
-
-    console.log(`Row saved with ID: ${this.lastID}`);
-
-    // Fetch all rows after saving to verify storage
-    db.all("SELECT * FROM saved_rows", (err, rows) => {
-      if (err) {
-        console.error("Error fetching saved rows:", err);
-      } else {
-        console.log("All saved rows in DB:", rows);
-      }
-    });
-
     res.json({ id: this.lastID });
   });
-
   stmt.finalize();
 });
 
-
+// Endpoint to get all saved rows for a user
 app.get('/saved-rows/:uid', (req, res) => {
   const { uid } = req.params;
-  
-  console.log(`Fetching saved rows for UID: ${uid}`);
-  
   db.all("SELECT * FROM saved_rows WHERE uid = ?", uid, (err, rows) => {
     if (err) {
       console.error("Error fetching saved rows:", err);
       return res.status(500).json({ error: err.message });
     }
-
-    console.log("Returning saved rows:", rows); // Debugging log
-
-    // Set JSON response header
-    res.setHeader("Content-Type", "application/json");
     res.json(rows);
   });
 });
-
 
 // Serve a simple index.html for testing
 app.get('/', (req, res) => {
