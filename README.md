@@ -69,8 +69,8 @@ You can customize the editor by modifying the `beeConfig` object in the `builder
 
 ## Other Resources
 
-- [Beefree SDK](https://docs.beefree.io/beefree-sdk) for providing the powerful email editor.
-- [Developer Console](https://developers.beefree.io) for providing the powerful email editor.
+- [Beefree SDK](https://docs.beefree.io/beefree-sdk) for the email editor.
+- [Developer Console](https://developers.beefree.io) for the email editor credentials.
 
 ## Support
 
