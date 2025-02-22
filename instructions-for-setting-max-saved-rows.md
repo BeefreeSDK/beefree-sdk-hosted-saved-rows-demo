@@ -1,4 +1,4 @@
-# Instructions for setting a max number of Hosted Saved Rows a user can save
+# Instructions for setting a max number of Hosted Saved Rows an end user can save
 
 Follow the instructions outlined in this file to learn more about setting a maximum number of [Hosted Saved Rows](https://docs.beefree.io/beefree-sdk/rows/storage/hosted-saved-rows) an end user can save.
 
