@@ -3,7 +3,7 @@ A simple integration to understand and experiment with customizations for Hosted
 
 # Beefree SDK - Hosted Saved Rows Integration Example
 
-This repository contains an example of how to integrate the **Beefree SDK** into a web application with **Hosted Saved Rows** enabled. The Beefree SDK allows you to embed a powerful email editor into your application, enabling users to create and customize email templates using a no-code tool.
+This repository contains an example of how to integrate the **Beefree SDK** into a web application with **Hosted Saved Rows** enabled. The Beefree SDK allows you to embed a powerful no-code email editor into your application, enabling users to create and customize email templates without writing a single line of code.
 
 ## Overview
 
@@ -16,7 +16,6 @@ The example is built using plain HTML, CSS, and JavaScript, making it easy to in
 
 ## Features
 
-- **Customizable Editor**: Configure the editor with merge tags, special links, and merge contents.
 - **Hosted Saved Rows**: Save and manage rows for reuse in different templates.
 - **Advanced Permissions**: Control user permissions for editing, deleting, and managing rows.
 - **Content Services API**: Transform Saved Rows into various content types your end users will enjoy.
@@ -43,16 +42,16 @@ The example is built using plain HTML, CSS, and JavaScript, making it easy to in
 
 ### Usage
 
-1. **Load the Editor**: The editor will automatically load when you open the `index.html` file in your browser.
-2. **Load a Template**: Use the file input to load a JSON template.
-3. **Edit and Save**: Customize the template and save it.
+1. **Load the Editor**: The editor will automatically load when you open the `builder.html` file in your browser.
+2. **Load a Template**: Use the file input to load a JSON template. This is optional, because one is already preloaded.
+3. **Create and design rows inside the template**: Customize the template with new rows and designs.
 4. **Save Rows that are automatically hosted**: Save rows and host them automatically. Reuse rows easily once they are saved.
 
 ## Code Structure
 
-- **`index.html`**: The main HTML file that includes the Beefree SDK and initializes the editor.
+- **`index.html`**: The main HTML file that includes a sample landing page.
 - **`credentials.js`**: Contains the client ID and client secret for authentication.
-- **`builder.html` and `builder-with-csapi.html`**: Additional HTML files you can redirect to using the main HTML that demonstrate examples of how you can load the Beefree SDK builder and transform saved rows into different content types like plain text, PDF, HTML, or an image.
+- **`builder.html` and `builder-with-csapi.html`**: Additional HTML files you can redirect to using the main HTML that demonstrate examples of how you can load the Beefree SDK builder, and transform saved rows into different content types like plain text, PDF, HTML, or an image.
 
 ## Customization
 
