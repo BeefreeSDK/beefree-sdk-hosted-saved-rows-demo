@@ -10,9 +10,7 @@ This repository contains an example of how to integrate the **Beefree SDK** into
 This example showcases how to:
 - Load the Beefree SDK into a web application.
 - Enable and customize Hosted Saved Rows.
-- Configure the editor with custom settings.
-- Save and load email templates.
-- Handle auto-save, on-change, and on-send events.
+- Configure [Hosted Saved Rows](https://docs.beefree.io/beefree-sdk/rows/storage/hosted-saved-rows) with custom settings.
 
 The example is built using plain HTML, CSS, and JavaScript, making it easy to integrate into any web project.
 
