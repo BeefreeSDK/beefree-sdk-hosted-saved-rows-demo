@@ -1,7 +1,26 @@
 # Instructions for setting a max number of Hosted Saved Rows a user can save
 
-## Overview
-This project integrates the Beefree SDK to allow users to create, edit, and save email rows within a content builder. Hosted saved rows are tracked and managed via a backend server built with Express and SQLite, hosted on Glitch. View what the final result looks like in the following video. [Click here to view the file](https://drive.google.com/file/d/168-wCclvrP6YykwCSBQtezYmdy4L64A9/view?usp=drive_link).
+Follow the instructions outlined in this file to learn more about setting a maximum number of [Hosted Saved Rows](https://docs.beefree.io/beefree-sdk/rows/storage/hosted-saved-rows) an end user can save.
+
+## Project Overview
+This project integrates the Beefree SDK to allow end users to create, edit, and save rows within its no-code visual content builder. The ability to save rows is ideal for end users who would like a solution to easily reuse their creative designs within the no-code builer in the future. This implementation includes [Hosted Saved Rows](https://docs.beefree.io/beefree-sdk/rows/reusable-content/create/save/implement-hosted-saved-rows) by [Beefree SDK](https://docs.beefree.io/beefree-sdk), which provides end users with the ability to:
+- Save their designs in rows
+- Reuse the saved rows with their designs in future designs through a drag-n-drop option
+- Manage saved row designs by category
+- Edit saved rows name and category
+- Delete saved rows with older designs they no longer need
+
+To set a maximum number of [Hosted Saved Rows](https://docs.beefree.io/beefree-sdk/rows/storage/hosted-saved-rows) an end user can save, this project uses the following Beefree SDK functionality:
+- [Track Message Changes](https://docs.beefree.io/beefree-sdk/getting-started/tracking-message-changes)
+- [Hosted Saved Rows](https://docs.beefree.io/beefree-sdk/rows/storage/hosted-saved-rows) 
+- [saveRows configuration](https://docs.beefree.io/beefree-sdk/rows/reusable-content/create/save/implement-hosted-saved-rows#making-saved-rows-available-to-select-users)
+- [(Optional) Content Dialog](https://docs.beefree.io/beefree-sdk/other-customizations/advanced-options/content-dialog)
+
+The way it works is that when Hosted Saved Rows is enabled, the end user can save row using the save icon that becomes available within the builder when Hosted Saved Rows is enabled. When the end user saves a row, that is tracked with Track Message Changes, which uses the `onChange` callback to return a response JSON to you each time that event occurs. Track Message Changes also uses a specific code that displays in the response JSON when the end user saves a row using Hosted Saved Rows. The backend in this project receives the response JSON, and counts the save against the alloted number of Hosted Saved Rows the end user has available. When they reach the maxmimum number of saved rows allocated to them, the `saveRows` boolean in the `beeConfig` is switched from `true` to `false` to remove the end user's access to the save icon. The result is that the end user can no longer save any rows, because they have reached the maximum amount allotted to them. The optional functionality included is the Content Dialog, which reports to the end user how many remaining rows they can save after they successfully save a row. 
+
+In this project, [Hosted saved rows](https://docs.beefree.io/beefree-sdk/rows/storage/hosted-saved-rows) are tracked and managed via a backend server built with Express and SQLite, hosted on Glitch. 
+
+View what the final result looks like in the following video. [Click here to view the file](https://drive.google.com/file/d/168-wCclvrP6YykwCSBQtezYmdy4L64A9/view?usp=drive_link).
 
 ## Functionality in Place
 
@@ -74,4 +93,3 @@ To modify the project to enforce a maximum number of hosted saved rows per user,
 
 ## Conclusion
 This setup allows users to save hosted rows with a limit enforced both on the frontend and backend. Any modifications should ensure that both layers of the application properly check and enforce the restriction to prevent excess saves.
-
