@@ -36,7 +36,7 @@ The example is built using plain HTML, CSS, and JavaScript, making it easy to in
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/mailupinc/beefree-sdk-hosted-saved-rows-demo.git
+   git clone https://github.com/BeefreeSDK/beefree-sdk-hosted-saved-rows-demo.git
    ```
 2. Open the `index.html` file in your browser.
 
